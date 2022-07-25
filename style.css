@@ -42,6 +42,7 @@ body {
 .text-page {
   text-align: center;
   font-weight: bold;
+  margin: 20px auto;
 }
 
 .teks-versus {
@@ -58,11 +59,7 @@ body {
   width: auto;
 }
 
-.k {
-  height: 100px;
-  width: auto;
-}
-
+.k,
 .g {
   height: 100px;
   width: auto;
@@ -73,17 +70,19 @@ body {
   width: auto;
   margin-top: 20px;
   margin-bottom: 50px;
-  text-align: center;
+  position: relative;
 }
 
-.btn {
+.choice {
   display: block;
-  margin: 10px 0;
+  margin-top: 20px;
   border-radius: 20%;
   padding: 10px;
+  transition: all 0.3s ease;
 }
 
-.btn:hover {
-  background: rgb(189, 188, 188);
+.choice:hover {
+  cursor: pointer;
+  background: rgb(175, 174, 174);
   padding: 10px;
 }

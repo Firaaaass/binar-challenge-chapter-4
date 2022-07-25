@@ -1,0 +1,11 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+  background-color: #9c835f;
+}
+
+header > h1 {
+  color: rgb(190, 162, 36);
+  text-align: start;
+  font-family: sans-serif;
+}

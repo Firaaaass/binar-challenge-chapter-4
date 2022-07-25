@@ -14,48 +14,49 @@
 
     <!-- My CSS -->
     <link rel="stylesheet" href="style.css" />
+    
   </head>
 
   <body>
     <!-- Navbar -->
     <nav class="navbar">
-      <div class="container">
+      <div class="container justify-content-start">
         <p class="back"> < </p>
         <a class="navbar-brand" href="#"><img src="assets/logo 1.png" alt="logo" class="main-logo" /></a>
         <h2 class="judul">ROCK PAPER SCISSORS</h2>
-      </nav>
-    
-    <!-- Main Page -->
-    <section class="main-page ">
+    </nav>
+
+      <!-- Mainpage -->
+      <section class="main-page">
         <div class="container">
-            <div class="row">
-                <div class="col-md-6">
-                  <h2 class="player">PLAYER 1</h2>
+            <div class="row align-items-start">
+                <div class="col-md-3"></div>
+                <div class="col-md-2">
+                    <h1 class="teks-page">PLAYER 1</h1>
+                    <a href="#" class="btn"><img src="assets/batu.png" alt="batu1" class="b"></a>
+                    <a href="#" class="btn"><img src="assets/kertas.png" alt="kertas1" class="k"></a>
+                    <a href="#" class="btn"><img src="assets/gunting.png" alt="gunting1" class="g"></a>
                 </div>
-                <div class="col-md-6">
-                    <h2 class="computer">COM</h2>
+                <div class="col-md-2">
+                  <h1 class="teks-versus">VS</h1>
                 </div>
+                <div class="col-md-2">
+                  <h1 class="teks-page">COM</h1>
+                  <a href="#" class="btn"><img src="assets/batu.png" alt="batu2" class="b"></a>
+                  <a href="#" class="btn"><img src="assets/kertas.png" alt="kertas2" class="k"></a>
+                  <a href="#" class="btn"><img src="assets/gunting.png" alt="gunting2" class="g"></a>
+                </div>
+                <div class="col-md-3"></div>
             </div>
-              <div class="row">
-                  <div class="col-md-6"><img src="assets/batu.png" alt="Newsletter" class="rounded float-start"></div>
-                  <div class="col-md-6"><img src="assets/batu.png" alt="Newsletter" class="rounded float-start"></div>
+            <div class="row">
+              <div class="col-auto">
+                <a href="#" class="btn"><img src="assets/refresh.png" alt="refresh" class="r"></a>
               </div>
             </div>
         </div>
       </section>
-
-
-    <div class="pilihan">
-      <div class="pilihan" id="b">
-        <img src="assets/batu.png" alt="" />
-      </div>
-      <div class="pilihan" id="k">
-        <img src="assets/kertas.png" alt="" />
-      </div>
-      <div class="pilihan" id="g">
-        <img src="assets/gunting.png" alt="" />
-      </div>
-    </div>
+    <!-- Akhir Mainpage -->    
+    
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
   </body>

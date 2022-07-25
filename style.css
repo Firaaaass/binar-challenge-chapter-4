@@ -1,11 +1,87 @@
 * {
   margin: 0;
-  box-sizing: border-box;
+  padding: 0;
   background-color: #9c835f;
 }
 
-header > h2 {
+body {
+  min-height: 100vh;
+}
+
+/* Navbar */
+.back {
+  color: #724c21;
+  font-size: 64px;
+  font-weight: 700;
+  font-family: "Open Sans", sans-serif;
+  width: 55px;
+  height: 87px;
+  left: 0px;
+  top: 10px;
+}
+
+.main-logo {
+  height: 50px;
+  width: auto;
+}
+
+.judul {
   color: #f9b23d;
-  text-align: start;
-  font-family: sans-serif;
+  text-align: center;
+  font-size: 36px;
+  font-weight: 700;
+  font-family: "Open Sans", sans-serif;
+  letter-spacing: 0;
+  width: 410px;
+  height: 62px;
+  left: 28px;
+  top: 200px;
+}
+
+/* Main Page */
+.text-page {
+  text-align: center;
+  font-weight: bold;
+}
+
+.teks-versus {
+  color: #bb0c0cd8;
+  font-size: 80px;
+  font-weight: 700;
+  font-family: "Open Sans", sans-serif;
+  align-items: center;
+}
+
+.b {
+  height: 80px;
+  width: auto;
+}
+
+.k {
+  height: 100px;
+  width: auto;
+}
+
+.g {
+  height: 100px;
+  width: auto;
+}
+
+.r {
+  height: 50px;
+  width: auto;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.btn {
+  display: block;
+  margin: 10px 0;
+  border-radius: 20%;
+  padding: 10px;
+}
+
+.btn:hover {
+  background: rgb(189, 188, 188);
+  padding: 10px;
 }

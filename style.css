@@ -50,6 +50,7 @@ body {
   font-weight: 700;
   font-family: "Open Sans", sans-serif;
   align-items: center;
+  height: auto;
 }
 
 .b {
@@ -71,6 +72,7 @@ body {
   height: 50px;
   width: auto;
   margin-top: 20px;
+  margin-bottom: 50px;
   text-align: center;
 }
 
